@@ -3,8 +3,8 @@ import Phaser from 'phaser';
 // Configuration du jeu
 var config = {
   type: Phaser.AUTO,
-  width: 800,
-  height: 600,
+  width: screen.width,
+  height: screen.height,
   scene: {
     preload: preload,
     create: create,
@@ -19,7 +19,7 @@ function preload (){
 }
 
 function create (){
-  this.add.text(400,300, 'Hellp Phaser!', {
+  this.add.text(screen.width / 2,screen.height / 2, 'Hello Phaser!', {
     fontSize: '32px',
     color: '#ffffff'
   }).setOrigin(0.5);
