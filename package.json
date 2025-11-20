@@ -1,7 +1,16 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "rush-gp-manager",
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
   }
 }
