@@ -6,9 +6,9 @@ var config = {
   width: 800,
   height: 600,
   scene: {
-    preload: "preload",
-    create: "create",
-    update: "update"
+    preload: preload,
+    create: create,
+    update: update
   }
 };
 
@@ -19,11 +19,12 @@ function preload (){
 }
 
 function create (){
-
+  this.add.text(400,300, 'Hellp Phaser!', {
+    fontSize: '32px',
+    color: '#ffffff'
+  }).setOrigin(0.5);
 }
 
 function update (){
 
 }
-
-//https://phaser.io/tutorials/making-your-first-phaser-3-game/part1
