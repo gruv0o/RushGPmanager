@@ -175,10 +175,17 @@ interface Driver {
   speed: number;        // 1-100
   corners: number;      // 1-100
   rain: number;         // 1-100
-  overtaking: number;   // 1-100
-  experience: number;   // 0-1000
   salary: number;       // €/course
-  morale: number;       // 1-100
+}
+```
+
+### Ecurie (Team)
+```typescript
+interface Driver {
+  id: number;
+  name: string;
+  budget: number,
+  
 }
 ```
 
@@ -189,10 +196,9 @@ interface Car {
   model: string;
   engine: number;       // 1-100
   aero: number;         // 1-100
-  brakes: number;       // 1-100
   tires: number;        // 1-100
   reliability: number;  // 1-100
-  wear: number;         // 0-100 (usure)
+  wear: number;         // 0-100 
   upgradeCost: number;
 }
 ```
@@ -205,7 +211,6 @@ interface Race {
   weather: 'sunny' | 'cloudy' | 'rain';
   laps: number;
   difficulty: number;   // 1-5
-  prize: number;        // € pour le gagnant
 }
 ```
 

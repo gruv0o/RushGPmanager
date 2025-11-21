@@ -1,7 +1,6 @@
 import Phaser from 'phaser';
 import MenuScene from './scene/MenuScene';
-import PlayScene from './scene/PlayScene';
-import UIScene from './scene/UIScene';
+import DashboardScene from './scene/DashboardScene';
 
 // Configuration du jeu
 var config = {
@@ -12,7 +11,7 @@ var config = {
   width: '100%',
   height: '100%'
 },
-  scene: [MenuScene, PlayScene, UIScene],
+  scene: [MenuScene, DashboardScene],
   backgroundColor: '#050505'
 };
 
