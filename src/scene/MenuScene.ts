@@ -1,19 +1,29 @@
 import Phaser from "phaser";
+import Button from "../components/Button";
+
+var middleOfScn = screen.width / 2;
 
 export default class MenuScene extends Phaser.Scene {
     constructor() {
         super({ key: 'MenuScene' });
     }
 
-    preload(this : Phaser.Scene) {
+    preload() {
         
     }
 
-    create(this : Phaser.Scene) {
-        this.add.text(screen.width / 2, 50, 'Rush GP Manager', {
+    create() {
+        this.add.text(middleOfScn, 50, 'Rush GP Manager', {
             fontSize: '32px',
             color: "#ffffff"
         }).setOrigin(0.5);
+
+        new Button(this, middleOfScn, 250, "JOUER", () => this.startGame());
+        new Button(this.)
+    }
+
+    private startGame() {
+        this.scene.start('PlayScene');
     }
 
 }
