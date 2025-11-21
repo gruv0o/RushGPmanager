@@ -5,8 +5,12 @@ import PlayScene from './scene/PlayScene';
 // Configuration du jeu
 var config = {
   type: Phaser.AUTO,
-  width: screen.width,
-  height: screen.height,
+  scale: {
+  mode: Phaser.Scale.RESIZE,
+  parent: 'game',
+  width: '100%',
+  height: '100%'
+},
   scene: [MenuScene, PlayScene],
   backgroundColor: '#050505'
 };
