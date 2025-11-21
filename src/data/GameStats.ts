@@ -1,4 +1,4 @@
-export default interface Car {
+export interface Car {
     id: number,
     model: string, 
     engine: number,                     //0-100
@@ -6,7 +6,7 @@ export default interface Car {
     reliability: number                 //0-100
 }
 
-export default interface Driver {
+export interface Driver {
     id: number,
     name: string,
     skill: number,                      //0-100
@@ -14,14 +14,13 @@ export default interface Driver {
     corners: number,                    //0-100
 }
 
-export default interface Team {
+export interface Team {
     id: number,
     name: string,
     budget: number                      //0-100
 }
 
-export default interface Track {
+export interface Track {
     id: number,
     name: string,
 }
-

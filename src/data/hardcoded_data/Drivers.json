@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Alex Martin",
+      "skill": 75,
+      "speed": 80,
+      "corners": 70
+    },
+    {
+      "id": 2,
+      "name": "Sarah Chen",
+      "skill": 82,
+      "speed": 78,
+      "corners": 85
+    },
+    {
+      "id": 3,
+      "name": "Marcus Johnson",
+      "skill": 88,
+      "speed": 90,
+      "corners": 84
+    },
+    {
+      "id": 4,
+      "name": "Elena Rodriguez",
+      "skill": 79,
+      "speed": 75,
+      "corners": 88
+    },
+    {
+      "id": 5,
+      "name": "Takeshi Yamamoto",
+      "skill": 85,
+      "speed": 87,
+      "corners": 82
+    },
+    {
+      "id": 6,
+      "name": "Sophie Dubois",
+      "skill": 72,
+      "speed": 70,
+      "corners": 76
+    },
+    {
+      "id": 7,
+      "name": "Carlos Silva",
+      "skill": 90,
+      "speed": 92,
+      "corners": 88
+    },
+    {
+      "id": 8,
+      "name": "Nina Petrov",
+      "skill": 77,
+      "speed": 73,
+      "corners": 82
+    }
+  ]
+  

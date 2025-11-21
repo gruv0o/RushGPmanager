@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "model": "Thunder X1",
+      "engine": 85,
+      "aero": 78,
+      "reliability": 92
+    },
+    {
+      "id": 2,
+      "model": "Velocity Pro",
+      "engine": 90,
+      "aero": 85,
+      "reliability": 75
+    },
+    {
+      "id": 3,
+      "model": "Apex Racer",
+      "engine": 78,
+      "aero": 88,
+      "reliability": 88
+    },
+    {
+      "id": 4,
+      "model": "Storm GT",
+      "engine": 82,
+      "aero": 80,
+      "reliability": 95
+    },
+    {
+      "id": 5,
+      "model": "Phoenix R8",
+      "engine": 88,
+      "aero": 82,
+      "reliability": 80
+    }
+  ]
+  

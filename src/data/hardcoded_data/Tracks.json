@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Monaco Grand Prix"
+    },
+    {
+      "id": 2,
+      "name": "Silverstone Circuit"
+    },
+    {
+      "id": 3,
+      "name": "Spa-Francorchamps"
+    },
+    {
+      "id": 4,
+      "name": "Monza Circuit"
+    },
+    {
+      "id": 5,
+      "name": "Suzuka International"
+    },
+    {
+      "id": 6,
+      "name": "Circuit de Barcelona"
+    },
+    {
+      "id": 7,
+      "name": "Nürburgring GP"
+    },
+    {
+      "id": 8,
+      "name": "Circuit of the Americas"
+    },
+    {
+      "id": 9,
+      "name": "Marina Bay Street"
+    },
+    {
+      "id": 10,
+      "name": "Interlagos Circuit"
+    }
+  ]
+  

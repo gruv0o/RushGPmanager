@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Rush Racing",
+      "budget": 150000
+    },
+    {
+      "id": 2,
+      "name": "Velocity Motorsport",
+      "budget": 200000
+    },
+    {
+      "id": 3,
+      "name": "Thunder Speed Team",
+      "budget": 120000
+    },
+    {
+      "id": 4,
+      "name": "Phoenix Racing",
+      "budget": 180000
+    },
+    {
+      "id": 5,
+      "name": "Apex Legends",
+      "budget": 250000
+    }
+  ]
+  
