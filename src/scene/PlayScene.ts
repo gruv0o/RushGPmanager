@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+import Phaser, { Scene } from 'phaser';
 
 export default class PlayScene extends Phaser.Scene {
     constructor() {
@@ -6,11 +6,12 @@ export default class PlayScene extends Phaser.Scene {
     }
 
     preload(){
-        this.loadData(this)
+        this.loadData(this);
     }
 
     create(){
-
+        console.log("PlayScene works")
+        this.scene.add("UIScene", Scene, true)
     }
 
     update(time: number, delta: number): void {
