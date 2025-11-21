@@ -18,8 +18,8 @@ export default class MenuScene extends Phaser.Scene {
             color: "#ffffff"
         }).setOrigin(0.5);
 
-        new Button(this, middleOfScn, 250, "JOUER", () => this.startGame());
-        new Button(this, middleOfScn, 350, "OPTIONS", () => this.options());
+        new Button(this, middleOfScn, 250, "JOUER", () => this.startGame(), true);
+        new Button(this, middleOfScn, 350, "OPTIONS", () => this.options(), false);
     }
 
     private startGame() {
