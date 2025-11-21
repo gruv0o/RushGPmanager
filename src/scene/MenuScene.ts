@@ -19,11 +19,14 @@ export default class MenuScene extends Phaser.Scene {
         }).setOrigin(0.5);
 
         new Button(this, middleOfScn, 250, "JOUER", () => this.startGame());
-        new Button(this.)
+        new Button(this, middleOfScn, 350, "OPTIONS", () => this.options());
     }
 
     private startGame() {
         this.scene.start('PlayScene');
     }
 
+    private options(){
+        console.log("options");
+    }
 }
