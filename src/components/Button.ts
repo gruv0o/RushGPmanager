@@ -14,7 +14,7 @@ export default class Button extends Phaser.GameObjects.Container {
             color: '#ffffff'
         }).setOrigin(0.5);
 
-        this.bg = scene.add.rectangle(0, 0, 200, 60, 0x3498db);
+        this.bg = scene.add.rectangle(0, 0, 200, 60, 0x606090);
 
         this.add([this.bg, this.text]);
 
@@ -42,12 +42,12 @@ export default class Button extends Phaser.GameObjects.Container {
     }
 
     private onHover(){
-        this.bg.setFillStyle(0x5dade2);
+        this.bg.setFillStyle(0xffffff);
         this.setScale(1.05);
     }
 
     private onOut(){
-        this.bg.setFillStyle(0x3498db);
+        this.bg.setFillStyle(0x606090);
         this.setScale(1);
     }
 

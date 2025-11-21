@@ -1,26 +1,27 @@
-interface Car {
+export default interface Car {
     id: number,
-    model: string,
-    engine: number,
-    aero: number,
-    reliability: number
+    model: string, 
+    engine: number,                     //0-100
+    aero: number,                       //0-100
+    reliability: number                 //0-100
 }
 
-interface Driver {
+export default interface Driver {
     id: number,
     name: string,
-    skill: number,
-    speed: number,
-    corners: number,
+    skill: number,                      //0-100
+    speed: number,                      //0-100
+    corners: number,                    //0-100
 }
 
-interface Team {
+export default interface Team {
     id: number,
     name: string,
-    budget: number
+    budget: number                      //0-100
 }
 
-interface Track {
+export default interface Track {
     id: number,
     name: string,
 }
+

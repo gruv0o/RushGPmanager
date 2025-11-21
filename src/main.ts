@@ -8,7 +8,7 @@ var config = {
   width: screen.width,
   height: screen.height,
   scene: [MenuScene, PlayScene],
-  backgroundColor: '#202040'
+  backgroundColor: '#050505'
 };
 
 new Phaser.Game(config);

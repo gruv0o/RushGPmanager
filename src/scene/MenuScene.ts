@@ -13,8 +13,8 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     update() {
-        this.add.text(middleOfScn, 50, 'Rush GP Manager', {
-            fontSize: '32px',
+        this.add.text(middleOfScn, 150, 'Rush GP Manager', {
+            fontSize: '45px',
             color: "#ffffff"
         }).setOrigin(0.5);
 
