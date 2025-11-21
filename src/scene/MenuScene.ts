@@ -11,6 +11,14 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     create() {
+        this.createMenu();
+
+        this.scale.on('resize', () => this.createMenu());
+    }
+
+    private createMenu(){
+        this.children.removeAll();
+
         this.add.text(this.scale.width / 2, 150, 'Rush GP Manager', {
             fontSize: '45px',
             color: "#ffffff"
