@@ -184,8 +184,7 @@ interface Driver {
 interface Driver {
   id: number;
   name: string;
-  budget: number,
-  
+  budget: number
 }
 ```
 
