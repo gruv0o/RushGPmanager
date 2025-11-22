@@ -29,7 +29,7 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     private startGame() {
-        this.scene.start('PlayScene');
+        this.scene.start('DashboardScene');
     }
 
     private options(){
