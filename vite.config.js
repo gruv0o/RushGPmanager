@@ -6,7 +6,7 @@ export default defineConfig({
         port: 5173
     },
     preview: {
-        port: 5173,
+        port: 80,
         host: '0.0.0.0',
         allowedHosts: ['remlit.fr'],
     }
